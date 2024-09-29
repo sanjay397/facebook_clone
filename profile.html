@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/32e7bee056.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html">
+        <img src="images/logo.png" class="logo" alt="" /></a>
+        <ul>
+          <li><img src="images/notification.png" alt="" /></li>
+          <li><img src="images/inbox.png" alt="" /></li>
+          <li><img src="images/video.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" alt="" />
+          <input type="text" placeholder="search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png" alt="" />
+        </div>
+      </div>
+
+      <!-- ------settings-menu------- -->
+
+      <div class="settings-menu">
+
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png " alt="" />
+            <div>
+              <p>John Nicholson</p>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile">
+            <img src="images/feedback.png " alt="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve design</a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="setting-links">
+            <img src="images/setting.png" class="settings-icon" alt="">
+            <a href="#">Settings & Privacy <img src="images/arrow.png" width:"10px" alt=""></a>
+          </div>
+
+           <div class="setting-links">
+            <img src="images/help.png" class="settings-icon" alt="">
+            <a href="#">Help & Support <img src="images/arrow.png" width:"10px" alt=""></a>
+          </div>
+
+           <div class="setting-links">
+            <img src="images/display.png" class="settings-icon" alt="">
+            <a href="#">Display & Accessibility <img src="images/arrow.png" width:"10px" alt=""></a>
+          </div>
+
+           <div class="setting-links">
+            <img src="images/logout.png" class="settings-icon" alt="">
+            <a href="#">Logout <img src="images/arrow.png" width:"10px" alt=""></a>
+          </div>
+
+        </div>
+         
+      </div>
+
+    </nav>
+
+    <!------ profile--page--------- -->
+
+    <div class="profile-container">
+        <img src="images/cover.png" alt="" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+              <div class="pd-row">
+                <img src="images/profile.png" class="pd-image" alt="">
+                <div>
+                    <h3>JackNicholoson </h3>
+                    <p>120</p>
+                    <img src="images/member-1.png" alt="">
+                    <img src="images/member-2.png" alt="">
+                    <img src="images/member-3.png" alt="">
+                    <img src="images/member-4.png" alt="">
+                    <img src="images/member-5.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="pd-right">
+              <button type="button">
+                <img src="images/add-friends.png" alt="">  Friend
+              </button>
+              <button type="button">
+                <img src="images/message.png" alt="">
+                Message
+              </button>
+              <a href=""><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+          <div class="info-col">
+            <div class="profile-intro">
+              <h3>Intro</h3>
+              <p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga tempora quod eaque ipsum corrupti ea tenetur natus? <img src="images/feeling.png" alt=""> </p>
+              <hr>
+             
+            </div>
+
+           
+          </div>
+          <div class="post-col">
+            <div class="write-post-container">
+          <div class="user-profile">
+            <img src="images/profile-pic.png " alt="" />
+            <div>
+              <p>John Nicholson</p>
+              <small>Public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              name=""
+              id=""
+              rows="3"
+              placeholder="whats on your mind john"
+            ></textarea>
+            <div class="add-post-links">
+              <a href="#">
+                <img src="images/live-video.png" alt=""> Live Video
+              </a>
+              <a href="#">
+                <img src="images/photo.png" alt=""> Photo/Video
+              </a>
+              <a href="#">
+                <img src="images/feeling.png" alt=""> feeling/Activity
+              </a>
+            </div>
+          </div>
+            </div>
+
+            <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+            <img src="images/profile-pic.png " alt="" />
+            <div>
+              <p>John Nicholson</p>
+              <span>June 24 2021,10:20 am</span>
+
+            </div>
+          </div>
+          <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+         </div>
+            
+          <p class="post-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, modi porro numquam libero eaque dolores voluptatum quos perferendis pariatur nihil aspernatur cum vel blanditiis, unde, quas sed rem sunt consequuntur.
+          </p>
+          <img src="images/feed-image-1.png" class="post-img" alt="">
+          <div class="post-row">
+            <div class="activity-icons">
+               <div>
+                <img src="images/like-blue.png" alt=""> 120
+               </div><div>
+                <img src="images/comments.png" alt=""> 40
+               </div>
+               <div>
+                <img src="images/share.png" alt=""> 20
+               </div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="images/profile-pic.png" alt="">
+                <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+            <img src="images/profile-pic.png " alt="" />
+            <div>
+              <p>John Nicholson</p>
+              <span>June 24 2021,10:20 am</span>
+
+            </div>
+          </div>
+          <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+         </div>
+            
+          <p class="post-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, modi porro numquam libero eaque dolores voluptatum quos perferendis pariatur nihil aspernatur cum vel blanditiis, unde, quas sed rem sunt consequuntur.
+          </p>
+          <img src="images/feed-image-1.png" class="post-img" alt="">
+          <div class="post-row">
+            <div class="activity-icons">
+               <div>
+                <img src="images/like-blue.png" alt=""> 120
+               </div><div>
+                <img src="images/comments.png" alt=""> 40
+               </div>
+               <div>
+                <img src="images/share.png" alt=""> 20
+               </div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="images/profile-pic.png" alt="">
+                <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+            <img src="images/profile-pic.png " alt="" />
+            <div>
+              <p>John Nicholson</p>
+              <span>June 24 2021,10:20 am</span>
+
+            </div>
+          </div>
+          <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+         </div>
+            
+          <p class="post-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, modi porro numquam libero eaque dolores voluptatum quos perferendis pariatur nihil aspernatur cum vel blanditiis, unde, quas sed rem sunt consequuntur.
+          </p>
+          <img src="images/feed-image-1.png" class="post-img" alt="">
+          <div class="post-row">
+            <div class="activity-icons">
+               <div>
+                <img src="images/like-blue.png" alt=""> 120
+               </div><div>
+                <img src="images/comments.png" alt=""> 40
+               </div>
+               <div>
+                <img src="images/share.png" alt=""> 20
+               </div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="images/profile-pic.png" alt="">
+                <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+          </div>
+        </div>
+
+       
+
+    </div>
+
+    
+    <div class="footer">
+      <p>Copyright</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
